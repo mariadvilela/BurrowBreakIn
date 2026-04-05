@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: cfb3f18f264ea4b0aaaa4f5538699a66
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5409991771490118419
+    second: Burrow Break-In text design-2_0
+  - first:
+      213: -8693903496092690475
+    second: Burrow Break-In text design-2_1
+  - first:
+      213: 7461682343281146430
+    second: Burrow Break-In text design-2_2
+  - first:
+      213: -4811331927325802653
+    second: Burrow Break-In text design-2_3
+  - first:
+      213: -6551082433195931970
+    second: Burrow Break-In text design-2_4
+  - first:
+      213: -6497529891918585748
+    second: Burrow Break-In text design-2_5
+  - first:
+      213: 9035705069108713852
+    second: Burrow Break-In text design-2_6
+  - first:
+      213: 5561675229946361596
+    second: Burrow Break-In text design-2_7
+  - first:
+      213: 5368131965205953547
+    second: Burrow Break-In text design-2_8
+  - first:
+      213: -8946401823026421852
+    second: Burrow Break-In text design-2_9
+  - first:
+      213: 647743007937599288
+    second: Burrow Break-In text design-2_10
+  - first:
+      213: 4520822269028592374
+    second: Burrow Break-In text design-2_11
+  - first:
+      213: 6302628812820057742
+    second: Burrow Break-In text design-2_12
+  - first:
+      213: -5950798361268529306
+    second: Burrow Break-In text design-2_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 3
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Burrow Break-In text design-2_0
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 547
+        width: 158
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de49b8ea529dbe4b0800000000000000
+      internalID: -5409991771490118419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burrow Break-In text design-2_1
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 602
+        width: 134
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d75ed325dc095780800000000000000
+      internalID: -8693903496092690475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burrow Break-In text design-2_2
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 626
+        width: 98
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ab31abe883d8760800000000000000
+      internalID: 7461682343281146430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burrow Break-In text design-2_3
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 631
+        width: 104
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36fff378a17ba3db0800000000000000
+      internalID: -4811331927325802653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burrow Break-In text design-2_4
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 614
+        width: 104
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb60e037c31e515a0800000000000000
+      internalID: -6551082433195931970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burrow Break-In text design-2_5
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 565
+        width: 206
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60e5ba1df224d5a0800000000000000
+      internalID: -6497529891918585748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burrow Break-In text design-2_6
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 331
+        width: 176
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79db6b13e5456d70800000000000000
+      internalID: 9035705069108713852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burrow Break-In text design-2_7
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 413
+        width: 98
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6ba05972a0f2d40800000000000000
+      internalID: 5561675229946361596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burrow Break-In text design-2_8
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 457
+        width: 98
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c358da49f6f7a40800000000000000
+      internalID: 5368131965205953547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burrow Break-In text design-2_9
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 475
+        width: 110
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af5a9821fef7d380800000000000000
+      internalID: -8946401823026421852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burrow Break-In text design-2_10
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 463
+        width: 122
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8371dd575de3df800800000000000000
+      internalID: 647743007937599288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burrow Break-In text design-2_11
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 493
+        width: 74
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6faef1eb6ef2dbe30800000000000000
+      internalID: 4520822269028592374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burrow Break-In text design-2_12
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 415
+        width: 98
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e0843338f677750800000000000000
+      internalID: 6302628812820057742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burrow Break-In text design-2_13
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 288
+        width: 182
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 667dc9a4b648a6da0800000000000000
+      internalID: -5950798361268529306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Burrow Break-In text design-2_0: -5409991771490118419
+      Burrow Break-In text design-2_1: -8693903496092690475
+      Burrow Break-In text design-2_10: 647743007937599288
+      Burrow Break-In text design-2_11: 4520822269028592374
+      Burrow Break-In text design-2_12: 6302628812820057742
+      Burrow Break-In text design-2_13: -5950798361268529306
+      Burrow Break-In text design-2_2: 7461682343281146430
+      Burrow Break-In text design-2_3: -4811331927325802653
+      Burrow Break-In text design-2_4: -6551082433195931970
+      Burrow Break-In text design-2_5: -6497529891918585748
+      Burrow Break-In text design-2_6: 9035705069108713852
+      Burrow Break-In text design-2_7: 5561675229946361596
+      Burrow Break-In text design-2_8: 5368131965205953547
+      Burrow Break-In text design-2_9: -8946401823026421852
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
