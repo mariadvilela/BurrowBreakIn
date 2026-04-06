@@ -222,6 +222,7 @@ GameObject:
   - component: {fileID: 335784619}
   - component: {fileID: 335784618}
   - component: {fileID: 335784617}
+  - component: {fileID: 335784620}
   m_Layer: 0
   m_Name: ducksix
   m_TagString: Untagged
@@ -378,12 +379,31 @@ Transform:
   m_GameObject: {fileID: 335784616}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.43, y: -2.76, z: 0}
+  m_LocalPosition: {x: -7.65, y: -2.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &335784620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335784616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fed38e70a62f04e50b56e5f636dea31d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DraggableItem
+  sackGrid: {fileID: 0}
+  shapeType: 13
+  scaleToFitShape: 0
+  cellPadding: 0.05
+  snapAnimSpeed: 12
+  scaleAnimSpeed: 10
+  dragSortingBoost: 100
 --- !u!1 &1084368245
 GameObject:
   m_ObjectHideFlags: 0
@@ -639,6 +659,7 @@ GameObject:
   - component: {fileID: 1274184638}
   - component: {fileID: 1274184637}
   - component: {fileID: 1274184639}
+  - component: {fileID: 1274184640}
   m_Layer: 0
   m_Name: ducktwo_0
   m_TagString: Untagged
@@ -824,6 +845,25 @@ PolygonCollider2D:
     - - {x: -0.36499998, y: 1.525}
       - {x: -0.36499998, y: 1.525}
   m_UseDelaunayMesh: 1
+--- !u!114 &1274184640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274184636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fed38e70a62f04e50b56e5f636dea31d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DraggableItem
+  sackGrid: {fileID: 0}
+  shapeType: 11
+  scaleToFitShape: 0
+  cellPadding: 0.05
+  snapAnimSpeed: 12
+  scaleAnimSpeed: 10
+  dragSortingBoost: 100
 --- !u!1 &1289418785
 GameObject:
   m_ObjectHideFlags: 0
@@ -835,6 +875,7 @@ GameObject:
   - component: {fileID: 1289418788}
   - component: {fileID: 1289418787}
   - component: {fileID: 1289418786}
+  - component: {fileID: 1289418789}
   m_Layer: 0
   m_Name: duckfour
   m_TagString: Untagged
@@ -969,12 +1010,31 @@ Transform:
   m_GameObject: {fileID: 1289418785}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.17, y: 1.09, z: 0}
+  m_LocalPosition: {x: 8.98, y: 1.18, z: 0}
   m_LocalScale: {x: 1, y: 1.614086, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1289418789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289418785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fed38e70a62f04e50b56e5f636dea31d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DraggableItem
+  sackGrid: {fileID: 0}
+  shapeType: 15
+  scaleToFitShape: 0
+  cellPadding: 0.05
+  snapAnimSpeed: 12
+  scaleAnimSpeed: 10
+  dragSortingBoost: 100
 --- !u!1 &1371611496
 GameObject:
   m_ObjectHideFlags: 0
@@ -1077,6 +1137,7 @@ GameObject:
   - component: {fileID: 1472585496}
   - component: {fileID: 1472585495}
   - component: {fileID: 1472585497}
+  - component: {fileID: 1472585498}
   m_Layer: 0
   m_Name: duckone_0
   m_TagString: Untagged
@@ -1317,6 +1378,25 @@ PolygonCollider2D:
       - {x: -1.81, y: 0.91999996}
       - {x: -1.8299999, y: 0.9}
   m_UseDelaunayMesh: 1
+--- !u!114 &1472585498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472585494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fed38e70a62f04e50b56e5f636dea31d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DraggableItem
+  sackGrid: {fileID: 0}
+  shapeType: 14
+  scaleToFitShape: 0
+  cellPadding: 0.05
+  snapAnimSpeed: 12
+  scaleAnimSpeed: 10
+  dragSortingBoost: 100
 --- !u!1 &1494070075
 GameObject:
   m_ObjectHideFlags: 0
@@ -1328,6 +1408,7 @@ GameObject:
   - component: {fileID: 1494070078}
   - component: {fileID: 1494070077}
   - component: {fileID: 1494070076}
+  - component: {fileID: 1494070079}
   m_Layer: 0
   m_Name: duckthree
   m_TagString: Untagged
@@ -1469,6 +1550,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1494070079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494070075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fed38e70a62f04e50b56e5f636dea31d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DraggableItem
+  sackGrid: {fileID: 0}
+  shapeType: 12
+  scaleToFitShape: 0
+  cellPadding: 0.05
+  snapAnimSpeed: 12
+  scaleAnimSpeed: 10
+  dragSortingBoost: 100
 --- !u!1 &1906354640
 GameObject:
   m_ObjectHideFlags: 0

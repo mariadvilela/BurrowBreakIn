@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: bc02f3c367c434affba06a20dbb17d7d
+guid: 0fb0522d9b0654d2eba97963eae50f20
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7374504969547778986
-    second: mrFoxOne_0
-  - first:
-      213: -4485737121637261141
-    second: mrFoxOne_1
+      213: -490242242413125318
+    second: playbutton_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 3
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mrFoxOne_0
+      name: playbutton_0
       rect:
         serializedVersion: 2
-        x: 277
-        y: 0
-        width: 368
-        height: 617
+        x: 3
+        y: 151
+        width: 444
+        height: 148
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 65470cf4dce78a990800000000000000
-      internalID: -7374504969547778986
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mrFoxOne_1
-      rect:
-        serializedVersion: 2
-        x: 675
-        y: 145
-        width: 22
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ba02705bad57fb1c0800000000000000
-      internalID: -4485737121637261141
+      spriteID: a312317274f4239f0800000000000000
+      internalID: -490242242413125318
       vertices: []
       indices: 
       edges: []
@@ -150,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -160,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      mrFoxOne_0: -7374504969547778986
-      mrFoxOne_1: -4485737121637261141
+      playbutton_0: -490242242413125318
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

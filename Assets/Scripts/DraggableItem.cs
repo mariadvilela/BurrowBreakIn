@@ -30,7 +30,34 @@ public class DraggableItem : MonoBehaviour
         PlusShape,
 
         /// <summary> Image 7 - Thigh pieces: . X X / X X . (4 cells, S-shape) </summary>
-        SShape
+        SShape,
+
+        /// <summary> ZShape: X . / X X / . X (4 cells) </summary>
+        ZShape,
+
+        /// <summary> Horizontal3: X X X (3 cells) </summary>
+        Horizontal3,
+
+        /// <summary> Horizontal4: X X X X (4 cells) </summary>
+        Horizontal4,
+
+        /// <summary> BigLShape: X . . / X X X (4 cells) </summary>
+        BigLShape,
+
+        /// <summary> Vertical2: X / X (2 cells) </summary>
+        Vertical2,
+
+        /// <summary> Horizontal2: X X (2 cells) </summary>
+        Horizontal2,
+
+        /// <summary> TallRect: X X / X X / X X (6 cells) </summary>
+        TallRect,
+
+        /// <summary> WideRect: X X X / X X X (6 cells) </summary>
+        WideRect,
+
+        /// <summary> Vertical4: X / X / X / X (4 cells) </summary>
+        Vertical4
     }
 
     [Header("References")]
@@ -40,7 +67,7 @@ public class DraggableItem : MonoBehaviour
     public ItemShape shapeType = ItemShape.SingleCell;
 
     [Header("Snap Settings")]
-    public bool scaleToFitShape = true;
+    public bool scaleToFitShape = false;
 
     [Range(0f, 0.4f)]
     public float cellPadding = 0.05f;
@@ -143,6 +170,96 @@ public class DraggableItem : MonoBehaviour
                     new Vector2Int(1, 0),
                     new Vector2Int(1, 1),
                     new Vector2Int(2, 1)
+                };
+
+            case ItemShape.ZShape:
+                // X .
+                // X X
+                // . X
+                return new Vector2Int[] {
+                    new Vector2Int(0, 1),
+                    new Vector2Int(0, 2),
+                    new Vector2Int(1, 0),
+                    new Vector2Int(1, 1)
+                };
+
+            case ItemShape.Horizontal3:
+                // X X X
+                return new Vector2Int[] {
+                    new Vector2Int(0, 0),
+                    new Vector2Int(1, 0),
+                    new Vector2Int(2, 0)
+                };
+
+            case ItemShape.Horizontal4:
+                // X X X X
+                return new Vector2Int[] {
+                    new Vector2Int(0, 0),
+                    new Vector2Int(1, 0),
+                    new Vector2Int(2, 0),
+                    new Vector2Int(3, 0)
+                };
+
+            case ItemShape.BigLShape:
+                // X . .
+                // X X X
+                return new Vector2Int[] {
+                    new Vector2Int(0, 0),
+                    new Vector2Int(1, 0),
+                    new Vector2Int(2, 0),
+                    new Vector2Int(0, 1)
+                };
+
+            case ItemShape.Vertical2:
+                // X
+                // X
+                return new Vector2Int[] {
+                    new Vector2Int(0, 0),
+                    new Vector2Int(0, 1)
+                };
+
+            case ItemShape.Horizontal2:
+                // X X
+                return new Vector2Int[] {
+                    new Vector2Int(0, 0),
+                    new Vector2Int(1, 0)
+                };
+
+            case ItemShape.TallRect:
+                // X X
+                // X X
+                // X X
+                return new Vector2Int[] {
+                    new Vector2Int(0, 0),
+                    new Vector2Int(1, 0),
+                    new Vector2Int(0, 1),
+                    new Vector2Int(1, 1),
+                    new Vector2Int(0, 2),
+                    new Vector2Int(1, 2)
+                };
+
+            case ItemShape.WideRect:
+                // X X X
+                // X X X
+                return new Vector2Int[] {
+                    new Vector2Int(0, 0),
+                    new Vector2Int(1, 0),
+                    new Vector2Int(2, 0),
+                    new Vector2Int(0, 1),
+                    new Vector2Int(1, 1),
+                    new Vector2Int(2, 1)
+                };
+
+            case ItemShape.Vertical4:
+                // X
+                // X
+                // X
+                // X
+                return new Vector2Int[] {
+                    new Vector2Int(0, 0),
+                    new Vector2Int(0, 1),
+                    new Vector2Int(0, 2),
+                    new Vector2Int(0, 3)
                 };
 
             default:
