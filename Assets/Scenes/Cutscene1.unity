@@ -839,7 +839,7 @@ MonoBehaviour:
   dialogueText: {fileID: 108535353}
   continuePromptText: {fileID: 1814393787}
   audioSource: {fileID: 0}
-  nextSceneName: 
+  nextSceneName: Cutscene2
   waitForAudioToFinish: 1
 --- !u!4 &1107523928
 Transform:

@@ -47,5 +47,8 @@ TagManager:
   - name: Items
     uniqueID: 914069075
     locked: 0
+  - name: Panel
+    uniqueID: 3286200643
+    locked: 0
   m_RenderingLayers:
   - Default

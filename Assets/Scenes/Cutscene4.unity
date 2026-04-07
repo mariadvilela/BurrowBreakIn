@@ -359,7 +359,7 @@ GameObject:
   - component: {fileID: 99923380}
   - component: {fileID: 99923379}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Cutscene Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -396,7 +396,7 @@ MonoBehaviour:
   dialogueText: {fileID: 2128875681}
   continuePromptText: {fileID: 2129744004}
   audioSource: {fileID: 0}
-  nextSceneName: 
+  nextSceneName: Puzzle3
   waitForAudioToFinish: 1
 --- !u!4 &99923380
 Transform:

@@ -364,7 +364,7 @@ MonoBehaviour:
   dialogueText: {fileID: 730009481}
   continuePromptText: {fileID: 568748083}
   audioSource: {fileID: 0}
-  nextSceneName: 
+  nextSceneName: Puzzle2
   waitForAudioToFinish: 1
 --- !u!4 &230319563
 Transform:
